@@ -1,0 +1,26 @@
+<channel
+   name="Fred"
+   guid="5D924C9D1EBDD23D6A088EEAE3E88C03"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Fred-To-MVWn6I4znEj0Gb"
+      commit_id="605675db85164fbed1f0e6b4228ebb33c9ea26a4"
+      commit_comment="First commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="CB6A9D56024A1DC69B9A1FF2A3529F8A"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="8000"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>
