@@ -1,0 +1,21 @@
+<channel
+   name="LLP+TRANSLATOR"
+   guid="E7CEF9D6D053DBFA6E8F730608A094DC"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="5346"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="trans"
+      ack_script="LLPTRANSLATOR-Ack-jZ37poeH0277Ze"
+      ack_commit_id="42f83662ce0c745f64366e053fdf81bed75000e8"
+      ack_commit_comment="sdfsdf"/>
+</channel>
